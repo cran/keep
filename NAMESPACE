@@ -1,0 +1,5 @@
+export(karray, kOarray, keep, as.karray, as.kOarray)
+importFrom(methods, setOldClass, setClassUnion)
+
+S3method("[",keep)
+S3method("as.array",keep)
